@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-
+# 3 Blank images
 blank= np.zeros((500,500,3),dtype='uint8')  #(Width,Height, 0r Color Channel (ratio) )
 #cv.imshow("Blank",blank)
 
