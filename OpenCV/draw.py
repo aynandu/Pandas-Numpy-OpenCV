@@ -6,8 +6,8 @@ blank= np.zeros((500,500,3),dtype='uint8')  #(Width,Height, 0r Color Channel (ra
 #cv.imshow("Blank",blank)
 
 # 1.Paint the image a Certain color
-#blank[200:300]=0,255,0
-#cv.imshow("Green",blank)
+blank[200:300]=0,255,0
+cv.imshow("Green",blank)
 
 # 2.Draw a Rectangle
 #cv.rectangle(blank,(0,0),(250,500),(0,255,0),thickness=cv.FILLED)
